@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  margin-top: 1rem;
+}
