@@ -3,7 +3,7 @@ import React from 'react';
 const DomainSSO: React.FC = () => {
   // TODO: Integrate with actual domain and SSO configuration data
   return (
-    <section>
+    <section className="page">
       <h2>Domain & SSO</h2>
       <div>
         <h3>Domain Information</h3>

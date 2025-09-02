@@ -14,7 +14,7 @@ const LogsExports: React.FC = () => {
   const [logs] = useState<LogEntry[]>([]); // populate from backend
 
   return (
-    <section>
+    <section className="page">
       <h2>Logs & Exports</h2>
       <table>
         <thead>

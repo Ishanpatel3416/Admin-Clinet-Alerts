@@ -29,7 +29,7 @@ const LimitsCostControls: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className="page">
       <h2>Limits & Cost Controls</h2>
       <div>
         <h3>Overview</h3>
@@ -74,6 +74,14 @@ const LimitsCostControls: React.FC = () => {
         <h3>Requests</h3>
         <form onSubmit={handleRequest}>
           {/* TODO: Implement request form */}
+          <select defaultValue="limit">
+            <option value="limit">Higher Limits</option>
+            <option value="entities">Extra Entities</option>
+            <option value="backfill">Backfill Credits</option>
+          </select>
+          <input placeholder="Amount" />
+          <input placeholder="Justification" />
+          <input placeholder="Impact" />
           <button type="submit">Submit Request</button>
         </form>
         <table>
