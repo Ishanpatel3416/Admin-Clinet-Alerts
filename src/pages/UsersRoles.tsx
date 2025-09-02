@@ -18,6 +18,12 @@ const UsersRoles: React.FC = () => {
   return (
     <section>
       <h2>Users & Roles</h2>
+      <div>
+        {/* TODO: Populate invite link */}
+        <h3>Share Invite Link</h3>
+        <input readOnly value="" placeholder="Invite link" />
+        <button type="button">Copy Link</button>
+      </div>
       <form onSubmit={handleInvite}>
         <h3>Invite User</h3>
         <input placeholder="Name" />
