@@ -16,7 +16,7 @@ const UsersRoles: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className="page">
       <h2>Users & Roles</h2>
       <div>
         {/* TODO: Populate invite link */}

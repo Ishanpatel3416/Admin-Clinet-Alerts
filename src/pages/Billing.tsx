@@ -13,7 +13,7 @@ const Billing: React.FC = () => {
   const [invoices] = useState<Invoice[]>([]); // to be fetched from backend
 
   return (
-    <section>
+    <section className="page">
       <h2>Billing</h2>
       <table>
         <thead>

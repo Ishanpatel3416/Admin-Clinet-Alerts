@@ -3,7 +3,7 @@ import React from 'react';
 const Support: React.FC = () => {
   // TODO: Replace with real FAQs and submission handler
   return (
-    <section>
+    <section className="page">
       <h2>Support</h2>
       <div>
         <h3>FAQ</h3>

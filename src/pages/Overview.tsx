@@ -3,7 +3,7 @@ import React from 'react';
 const Overview: React.FC = () => {
   // TODO: Replace placeholders with real data from backend
   return (
-    <section>
+    <section className="page">
       <h2>Overview</h2>
       <div>
         <p>Domain: </p>

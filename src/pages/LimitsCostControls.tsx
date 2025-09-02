@@ -29,7 +29,7 @@ const LimitsCostControls: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className="page">
       <h2>Limits & Cost Controls</h2>
       <div>
         <h3>Overview</h3>
