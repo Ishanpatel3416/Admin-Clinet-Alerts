@@ -10,6 +10,10 @@ const Overview: React.FC = () => {
         <p>Plan start date: </p>
         <p>Total number of users currently: </p>
       </div>
+      <div>
+        {/* TODO: Wire up quick actions */}
+        <button>Open Intel Workspace</button>
+      </div>
     </section>
   );
 };
